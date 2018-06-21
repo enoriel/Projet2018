@@ -19,8 +19,8 @@ sudo apt install joystick make build-essential
 
 Pour compiler le programme: 
 ```
-$cd src
 $make
+$cd src
 $sudo cp 99-mcp2210-spi2usb.rules /lib/udev/rules.d/99-mcp2210-spi2usb.rules
 $sudo reboot
 ```
