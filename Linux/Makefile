@@ -18,7 +18,7 @@ controller.o: hid.h nrf24l01.h map.h
 .PHONY: clean mrproper
 
 clean:
-	rm -rf *.o
+	rm -rf src/*.o
 
 mrproper: clean
 	rm -rf $(EXEC)
