@@ -4,8 +4,8 @@ RobotCup Soccer
 Membre du groupe:
 - CASTETS MATTHIEU
 - EL MERNISSI YASSINE
-- OFFOUGA JORIS
-- REBILLON ERIC
+- OFFOUGA JORIS (https://github.com/jorisoffouga/Project_Robocup)
+- REBILLON ERIC (https://github.com/eric33440/Projet-Robotcup)
 
 # Contenu du projet:
 - HCS08 -> Code pour microcontrôleur MC9S08QE128CLK
@@ -26,5 +26,5 @@ $sudo reboot
 ```
 Pensez à brancher les appareils avant de lancer le programme (à la racine):
 ```
-#$./controller /dev/input/js0 /dev/mcp2210
+$./controller /dev/input/js0 /dev/mcp2210
 ```
